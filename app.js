@@ -1,14 +1,18 @@
-//11
-const NextElement = document.getElementById('Next')
+//============ПЕРЕМЕННЫЕ=============//
+let action = '+'
 
-NextElement.onclick = function () {
-    localStorage.setItem('title',document.getElementById('title').value)
-    localStorage.setItem('title1',document.getElementById('title1').value)
-    localStorage.setItem('title2',document.getElementById('title2').value)
-    
-    window.location.href = 'List1.html'
-    return false;
-   
+//============ELEMS=============//
+const input1 = document.getElementById('input1')
+const submitBtn = document.getElementById('submit')
+
+
+
+submitBtn.onclick = function () {
+    //const result = computeNumbersWithAction(input1,input2,action)
+   // printResult(result)
 
 }
+
+
+
 
